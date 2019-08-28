@@ -19,13 +19,13 @@
                     <rect key="frame" x="0.0" y="0.0" width="375" height="143"/>
                     <subviews>
                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="Dkp-Nm-guV">
-                            <rect key="frame" x="100" y="25" width="175" height="106"/>
+                            <rect key="frame" x="16" y="25" width="343" height="106"/>
                             <subviews>
                                 <imageView userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="JMe-BX-zZc">
-                                    <rect key="frame" x="0.0" y="0.0" width="175" height="27"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="343" height="56"/>
                                 </imageView>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title TitleTitleTitleTitleTitleTitleTitleTitleTitleTitleTitleTitleTitleTitleTitle" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="aYN-wP-j3Z">
-                                    <rect key="frame" x="0.0" y="43" width="175" height="63"/>
+                                    <rect key="frame" x="0.0" y="72" width="343" height="34"/>
                                     <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <nil key="highlightedColor"/>
@@ -37,8 +37,8 @@
                     <constraints>
                         <constraint firstItem="Dkp-Nm-guV" firstAttribute="top" secondItem="9aM-Ns-rGI" secondAttribute="top" constant="25" id="Ahi-Va-jyA"/>
                         <constraint firstAttribute="bottom" secondItem="Dkp-Nm-guV" secondAttribute="bottom" constant="12" id="GLF-5J-mEj"/>
-                        <constraint firstItem="Dkp-Nm-guV" firstAttribute="leading" secondItem="9aM-Ns-rGI" secondAttribute="leading" constant="100" id="eUQ-cj-uga"/>
-                        <constraint firstAttribute="trailing" secondItem="Dkp-Nm-guV" secondAttribute="trailing" constant="100" id="sa3-NK-dca"/>
+                        <constraint firstItem="Dkp-Nm-guV" firstAttribute="leading" secondItem="9aM-Ns-rGI" secondAttribute="leading" constant="16" id="eUQ-cj-uga"/>
+                        <constraint firstAttribute="trailing" secondItem="Dkp-Nm-guV" secondAttribute="trailing" constant="16" id="sa3-NK-dca"/>
                         <constraint firstAttribute="height" relation="greaterThanOrEqual" id="ywf-an-h9C"/>
                     </constraints>
                 </view>
